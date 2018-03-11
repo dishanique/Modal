@@ -1,6 +1,6 @@
 ## Time Based Modal:
 
-# Goal-To create a single web page that demonstrates understanding of when and how to use a modal, showcase basic JavaScript skills and understanding of concepts.
+# Goal - To create a single web page that demonstrates understanding of when and how to use a modal, showcase basic JavaScript skills and understanding of concepts.
 
 # To Do: 
   1.Create a single web page for a fake company. 
