@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LOVE DENIM</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Coupons</button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Coupon Code: MARCHSNOW
+                <br />
+                <strong>Expire: March 13, 2018</strong>
+            </p>
+        </div>
+    </div>
+    <script>
+        // Get modal
+        var modal = document.getElementById('myModal');
+        
+        // Button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the element that closes modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When clicked, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // When clicks on x, close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+    </head>
+    <body background="https://matalan-content.imgix.net/uploads/asset_file/asset_file/148573/1507030427.5465639-M463-Denim-Fit-Guide1.jpg?ixlib=rails-2.1.4&auto=format%2Ccompress&cs=tinysrgb&w=1140&dpr=2&q=30&s=8afd7f11e34b19ef5d56650a7c60add3">
+        <div class="home-cover">
+            <header>
+                <div class="title-cover">
+                </div>
+                <!--Nav Bar Setup  -->
+                <div class="topnav-li">
+                    <ul class="cover-ul" class="topnav-ul">
+                        <li><a href="Men.html">Men</a></li>
+                        <li><a href="Women.html">Women</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+    </body>
+</html>
